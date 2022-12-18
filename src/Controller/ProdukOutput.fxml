@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="Controller.ProdukOutputController">
+   <children>
+      <Button fx:id="btnBarang" layoutX="253.0" layoutY="185.0" mnemonicParsing="false" onAction="#barang" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: black;" text="Barang" textFill="#fcfcfc" />
+      <Button fx:id="btnMakanan" layoutX="253.0" layoutY="253.0" mnemonicParsing="false" onAction="#makanan" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: black;" text="Makanan" textFill="#f8f5f5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff20" height="64.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="64.0" fitWidth="52.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ikon/casir.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="102.0" prefHeight="34.0" prefWidth="370.0" text="Jenis Produk Kami :">
+         <font>
+            <Font name="Elephant Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" prefHeight="22.0" prefWidth="52.0" style="-fx-background-color: black;" text="Back" textFill="#fcfcfc" />
+   </children>
+</AnchorPane>

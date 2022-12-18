@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MakananInputController">
+   <children>
+      <Label layoutX="224.0" layoutY="34.0" text="Deskripsi Makanan">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="108.0" text="Id" />
+      <Label layoutX="83.0" layoutY="151.0" text="Nama Barang" />
+      <Label layoutX="83.0" layoutY="236.0" text="Jumlah" />
+      <Label layoutX="83.0" layoutY="193.0" text="Harga" />
+      <Label layoutX="83.0" layoutY="277.0" text="Diskon" />
+      <Label layoutX="83.0" layoutY="317.0" text="Daya Tahan" />
+      <TextField fx:id="flId" layoutX="236.0" layoutY="104.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="flNama" layoutX="236.0" layoutY="147.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="flHarga" layoutX="236.0" layoutY="189.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="flJumlah" layoutX="236.0" layoutY="232.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="flDiskon" layoutX="236.0" layoutY="273.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="flDayatahan" layoutX="236.0" layoutY="313.0" prefHeight="25.0" prefWidth="275.0" />
+      <Button fx:id="btnTambah1" layoutX="466.0" layoutY="355.0" mnemonicParsing="false" onAction="#tambah" style="-fx-background-color: black;" text="Update" textFill="#fcfafa" />
+      <Button fx:id="btnKembali" layoutX="538.0" layoutY="355.0" mnemonicParsing="false" onAction="#kembali" style="-fx-background-color: black;" text="Back" textFill="#fcf9f9" />
+   </children>
+</AnchorPane>
